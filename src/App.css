@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.taskForm {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+#taskname {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+.addBtn {
+  width: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s, border 0.2s;
+}
+.addBtn:hover {
+  background-color: transparent;
+  border: 1px solid grey;
+}
+.taskCard {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  background-color: rgb(72, 72, 72);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.text {
+  flex: 1;
+  text-align: left;
+  padding-left: 15px;
+  font-weight: 500;
+}
+.taskCard button {
+  width: auto;
+  margin-left: 15px;
+  padding: 15px 25px;
+}
